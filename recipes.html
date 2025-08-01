@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="åäº«ä½¿ç¨æä»¬ç³äº§åçç¾å³é£è°±çç¹åé¥®åçå¶ä½æ¹æ³ã">
+    <meta name="keywords" content="ç³é£è°±, ç¹é¥ª, çç¹, é¥®å">
+    <link rel="stylesheet" href="styles.css">
+    <title>ç³çé£è°± - sugar1.com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF;
+            color: #333;
+        }
+        header {
+            background-color: #FFE4E1;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .recipe-card {
+            background-color: #FFE4E1;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .recipe-card:hover {
+            transform: scale(1.05);
+        }
+        .recipe-card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #FFE4E1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ç³çé£è°±</h1>
+        <nav>
+            <a href="/">ä¸»é¡µ</a>
+            <a href="/contact">èç³»æä»¬</a>
+            <a href="/faq">å¸¸è§é®é¢</a>
+            <a href="/health-benefits">å¥åº·çå¤</a>
+            <a href="/products">äº§åä»ç»</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="recipe-card">
+            <img src="https://images.unsplash.com/photo-1556742031-c6961e856b3e" alt="ç¾å³çç¹">
+            <h2>å·§åèç³</h2>
+            <p>ä½¿ç¨æä»¬çç³å¶ä½åºç¾å³çå·§åèç³ï¼ç»å®¶äººå¸¦æ¥æ éæåã</p>
+            <a href="sugar1.com" class="btn">æ¥çé£è°±</a>
+        </div>
+        <div class="recipe-card">
+            <img src="https://images.unsplash.com/photo-1600966958529-2cfb4bcb4c1b" alt="ç½é¥®å">
+            <h2>èèé¥®å</h2>
+            <p>æ°çèèé¥®åï¼éåçç­çå¤å¤©ï¼ç®ååå¿«æã</p>
+            <a href="sugar1.com" class="btn">æ¥çé£è°±</a>
+        </div>
+        <!-- å¯ä»¥ç»§ç»­æ·»å é£è°±å¡ç -->
+    </main>
+
+    <footer>
+        <p>Â© 2023 sugar1.com. ä¿çæææå©ã</p>
+    </footer>
+</body>
+</html>
